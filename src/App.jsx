@@ -1,11 +1,16 @@
-import "./assets/css/App.scss";
+import "./assets/css/App.css";
+import Header from "./assets/components/Header";
+import TableUser from "./assets/components/TableUser";
 
-function App() {
+export default function App() {
 	return (
-		<div className="flex justify-center items-center mt-10">
-			<h1 className="text-13 font-bold underline">xin chào</h1>
+		<div className="app-container">
+			<Header />
+			<main>
+				<div className="table-wrapper">
+					<TableUser />
+				</div>
+			</main>
 		</div>
 	);
 }
-
-export default App;
