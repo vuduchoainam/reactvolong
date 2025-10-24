@@ -7,7 +7,7 @@ import {
 	TableRow,
 } from "@/components/ui/table";
 import { useEffect, useState } from "react";
-import { fetchAllUsers } from "../services/userServices";
+import { fetchAllUsers } from "@/assets/services/userServices";
 import Pagination from "@/components/ui/pagination";
 
 const TableUser = () => {
